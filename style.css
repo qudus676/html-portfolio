@@ -1,0 +1,333 @@
+body {
+  margin: 0%;
+  border: 0;
+}
+.design {
+  font-family: "Times New Roman", Times, serif;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.navbar {
+  text-decoration: none;
+  color: black;
+}
+.hello {
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.aboutus {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hiree {
+  font-family: "Courier New", Courier, monospace;
+}
+.me {
+  background-color: #04aa6d;
+  color: white;
+}
+.me:hover {
+  background-color: white;
+  color: black;
+}
+.firstimage {
+  width: 100px;
+}
+.homesection {
+  background-color: rgb(69, 155, 136);
+  /* background: linear-gradient(
+        to bottom,
+        green 46%,
+        white 0%
+    ); */
+}
+.webd {
+  display: flex;
+  justify-content: space-between;
+}
+.htmlc {
+  display: flex;
+  justify-content: space-between;
+}
+.wordp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page1 {
+  display: flex;
+  justify-content: space-between;
+}
+.range1 {
+  display: flex;
+  justify-content: space-between;
+}
+.range::-webkit-slider-runnable-track {
+  background: rgb(69, 155, 136);
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+}
+.landing area {
+  display: flex;
+}
+.ner {
+  color: green;
+}
+nav {
+  background-color: rgb(69, 155, 136);
+}
+.nav-content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.me {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+.graphic {
+  border: 1px solid rgb(241, 241, 241);
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+
+  border-radius: 5px;
+}
+.graphic:hover {
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+.web {
+  border: 1px solid rgb(241, 241, 241);
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+.web:hover {
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+.ui {
+  border: 1px solid rgb(241, 241, 241);
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+.ui:hover {
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+.seo {
+  border: 1px solid rgb(241, 241, 241);
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+.seo:hover {
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+.html {
+  border: 1px solid rgb(241, 241, 241);
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+.html:hover {
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+.bus {
+  border: 1px solid rgb(241, 241, 241);
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+.bus:hover {
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+
+.origin {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flip {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.latestproject {
+  display: flex;
+  justify-content: space-between;
+}
+.all {
+  justify-content: right;
+  width: 100px;
+  height: 40px;
+}
+.portfolio {
+  color: rgb(69, 155, 136);
+}
+.price {
+  color: rgb(69, 155, 136);
+}
+
+.pricebutton {
+  border-radius: 10px;
+}
+.pricebutton1 {
+  border-radius: 10px;
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+.ux {
+  display: block;
+}
+.basic {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.customer {
+  text-align: center;
+}
+
+.standard {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.premium {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.fees {
+  display: flex;
+  justify-content: space-evenly;
+}
+.basiclist {
+  list-style: circle;
+}
+.standardlist {
+  list-style: circle;
+}
+.premiumlist {
+  list-style: circle;
+}
+.abraham {
+  display: flex;
+  gap: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.soffiq {
+  display: flex;
+  gap: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.rating {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[type="range"] {
+  appearance: auto;
+  cursor: default;
+  color: rgb(69, 155, 136), rgb(69, 155, 136);
+  padding: initial;
+  border: initial;
+  margin: 2px;
+  width: 100%;
+}
+.testimonial {
+  color: rgb(69, 155, 136);
+}
+.service {
+  color: rgb(69, 155, 136);
+}
+.my-container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+.ratebg {
+  background-color: rgb(241, 241, 241);
+}
+.projectsection {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(69, 155, 136);
+  color: white;
+}
+.mebutton {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  color: rgb(69, 155, 136);
+  border-color: white;
+}
+.mebutton:hover {
+  background-color: white;
+  color: black;
+}
+.fontf {
+  font-family: "Courier New", Courier, monospace;
+}
+.listend {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.collaboration {
+  background-color: rgb(241, 241, 241);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.collab {
+  display: flex;
+  justify-content: space-around;
+}
+.projs {
+  display: flex;
+  gap: 15px;
+}
+.clientt {
+  display: flex;
+  gap: 15px;
+}
+.activee {
+  display: flex;
+  gap: 15px;
+}
+.teamm {
+  display: flex;
+  gap: 15px;
+}
+.num {
+  color: #04aa65;
+}
+.footer {
+  text-align: center;
+}
